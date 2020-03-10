@@ -5,8 +5,8 @@ def map(array)
   result = []
   i = 0 
   while i < array.length do 
-    b = yield(array[i])
-    result << b
+    result << yield(array[i])
+    # result << b
     i += 1 
   end 
   result 
