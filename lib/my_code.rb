@@ -6,7 +6,6 @@ def map(array)
   i = 0 
   while i < array.length do 
     result << yield(array[i])
-    # result << b
     i += 1 
   end 
   result 
